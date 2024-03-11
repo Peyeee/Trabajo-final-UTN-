@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@font-face {
+    font-family: 'Mango-Grotesque';
+    src: url(./Source/MangoGrotesque-Bold.otf)
+}
+
+/* poppins-thin {
+
+} */
+
+/*---------------------------------------------------------------------- Normalize -------------------------------------------------------------------------------------------------*/
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Aplica el desplazamiento suave a toda la página */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #222222;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*---------------------------------------------------------------------- Header -------------------------------------------------------------------------------------------------*/
+
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.list-container .nav-list__ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    scroll-behavior: smooth;
+}
+
+.list-container .nav-list__ul a {
+    color: #fcfcf7;
+    font-family: "poppins";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19.36px;
+    transition: 0.3s;
+}
+
+.list-container .nav-list__ul a:hover {
+    color: #fcfcf7;
+    font-family: "poppins";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-shadow: 3px 3px 3px white;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-container .nav-img img {
+    width: 50px;
+}
+
+/*---------------------------------------------------------------------- Body (heroe-top) -------------------------------------------------------------------------------------------------*/
+
+.heroe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+.heroe .heroe-top p {
+    color: white;
+    font-size: 18px;
+}
+
+.heroe .heroe-top .fs {
+    color: white;
+    font-size: 30px;
+}
+
+.heroe-top>div>p {
+    margin-top: 20px;
+}
+
+.heroe .heroe-top h1 {
+    color: #7E74F1;
+    font-size: 50px;
+    padding: 0;
+}
+
+.main-heroe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.main-heroe img {
+    width: 300px;
+}
+
+.heroe-top .fsNDC {
+    font-size: 15px;
+    color: white;
+}
+
+.heroe-top {
+    display: flex;
+    flex-direction: column;
+    /* gap: 13px; */
+}
+
+/*---------------------------------------------------------------------- Body(heroe-bottom) -------------------------------------------------------------------------------------------------*/
+
+
+.heroe-bottom {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 20px;
+    font-size: 30px;
+    gap: 15px;
+}
+
+.heroe-bottom .HB-A {
+    text-decoration: none;
+    color: white;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #7E74F1, rgba(0, 191, 255, 1));
+}
+
+
+.heroe-bottom .HB-A a {
+    color: white;
+}
+
+.heroe-bottom span {
+    color: white;
+}
+
+.heroe-bottom i {
+    color: rgba(0, 191, 255, 1);
+}
+
+/* .heroe-bottom span:hover {
+    transition: 1s;
+    box-shadow: 0 0 10px 5px rgba(0, 191, 255, 0.7);
+} */
+/*---------------------------------------------------------------------- Body(Services) -------------------------------------------------------------------------------------------------*/
+
+.services-section {
+    background-color: #2F2F2F;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-section h3 {
+    text-align: center;
+    color: white;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+}
+.services-container {
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image: radial-gradient(#444cf7 0.8500000000000001px, #e5e5f7 0.8500000000000001px);
+    background-size: 17px 17px;
+}
