@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <nav class="nav">
             <div class="list-container">
                 <div class="nav-img">
@@ -18,15 +18,16 @@
                 <div class="nav-list">
                     <ul class="nav-list__ul">
                         <li><a href="./google.com">About Me</a></li>
-                        <li><a href="#id">Services</a></li>
-                        <li><a href="#">Proyects</a></li>
-                        <li><a href="#">Resume</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#seccion1">Services</a></li>
+                        <li><a href="#proyects">Proyects</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <main>
         <div class="main-heroe">
             <div class="heroe">
@@ -55,38 +56,178 @@
             </div>
             <img src="./Source/1071-200x200.jpg" alt="">
         </div>
+        <div class="upTop-button">
+            <a href="#header">hola</a>
+        </div> 
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#2f2f2f" fill-opacity="1"
+                d="M0,32L48,64C96,96,192,160,288,160C384,160,480,96,576,58.7C672,21,768,11,864,32C960,53,1056,107,1152,133.3C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+
         <section class="services-section">
-            <h3>- My Services - </h3>
-            <div >
+            <h3 id="seccion1">- My Services - </h3>
+
+
+            <div>
                 <div class="services-container">
+
                     <article>
-                        <div><i class="bi bi-window-sidebar"></i></div>
-                        <span>Web Developer</span>
+                        <div class="top-card">
+                            <div><i class="bi bi-window-sidebar"></i></div>
+                            <span>Web Developer</span>
+                        </div>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magni, molestias ab
                             fugit aliquid incidunt iure quae! Dolore facilis consequuntur doloremque atque officiis,
                             rerum laudantium culpa autem aliquam mollitia eum.</p>
                     </article>
 
                     <article>
-                        <div><i class="bi bi-lightbulb-fill"></i></div>
-                        <span>Video Editor</span>
+                        <div class="top-card">
+                            <div><i class="bi bi-lightbulb-fill"></i></div>
+                            <span>Video Editor</span>
+                        </div>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magni, molestias ab
                             fugit aliquid incidunt iure quae! Dolore facilis consequuntur doloremque atque officiis,
                             rerum laudantium culpa autem aliquam mollitia eum.</p>
                     </article>
 
                     <article>
-                        <div><i class="bi bi-shop"></i></div>
-                        <span>Content Manager</span>
+                        <div class="top-card">
+                            <div><i class="bi bi-shop"></i></div>
+                            <span>Content Manager</span>
+                        </div>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magni, molestias ab
                             fugit aliquid incidunt iure quae! Dolore facilis consequuntur doloremque atque officiis,
                             rerum laudantium culpa autem aliquam mollitia eum.</p>
                     </article>
 
                 </div>
+
+
             </div>
         </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
+            <path fill="#2f2f2f" fill-opacity="1"
+                d="M0,96L48,112C96,128,192,160,288,181.3C384,203,480,213,576,186.7C672,160,768,96,864,101.3C960,107,1056,181,1152,208C1248,235,1344,213,1392,202.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
+
+        <!-- <div class="separator"></div> -->
+
+        <section class="proyects" id="proyects">
+            <h3 class="proyects-h3">- Proyects -</h3>
+            <div class="proyects-container">
+                <article class="joga">
+                    <img src="./Source/Joga.jpeg" alt="Joga">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nihil ipsum similique
+                            expedita
+                            maiores mollitia, aspernatur architecto! Doloremque exercitationem beatae perferendis
+                            eligendi
+                            officiis facere. Voluptates, amet. Iusto aliquam similique corporis.</p>
+                        <span>repository : <a href="">https://github.com/Peyeee/Tarea-Flex-Hostinger</a></span>
+                    </div>
+                </article>
+                <article class="hostinger">
+                    <img src="./Source/Hostinger.JPG" alt="">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nihil ipsum similique
+                            expedita
+                            maiores mollitia, aspernatur architecto! Doloremque exercitationem beatae perferendis
+                            eligendi
+                            officiis facere. Voluptates, amet. Iusto aliquam similique corporis.</p>
+                        <span>repository: <a
+                                href="https://github.com/Peyeee/Tarea-Flex-Hostinger">https://github.com/Peyeee/Tarea-Flex-Hostinger</a></span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- <div class="separator"></div> -->
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300">
+            <path fill="#2f2f2f" fill-opacity="1"
+                d="M0,160L48,165.3C96,171,192,181,288,208C384,235,480,277,576,256C672,235,768,149,864,149.3C960,149,1056,235,1152,250.7C1248,267,1344,213,1392,186.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+        <section class="resume">
+            <h3 id="resume" class="resume-h3">- Resume -</h3>
+            <div class="resume-container">
+                <img src="./Source/202-200x200ej.jpg" alt="">
+                <div class="resume-p__container">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officiis dolore, saepe ut
+                        sapiente nisi similique velit non ad hic numquam quas debitis, quisquam sed ipsum commodi sunt
+                        maiores. Eaque.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- <div class="separator"></div> -->
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#2f2f2f" fill-opacity="1"
+                d="M0,160L48,165.3C96,171,192,181,288,208C384,235,480,277,576,256C672,235,768,149,864,149.3C960,149,1056,235,1152,250.7C1248,267,1344,213,1392,186.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
+        <section class="contact">
+            <h3 id="contact"> - Contact - </h3>
+
+            <div class="contact-container">
+
+                <div class="contact-container__top">
+                    <form action="">
+                        <div class="prueb">
+                            <label for="Name-imput" class="name-imput">Name</label>
+                            <input type="text" id="Name-imput">
+                        </div>
+
+                        <div class="prueb">
+                            <label for="E-Mail-input" class="e-Mail-input">E-Mail</label>
+                            <input type="text" id="E-Mail-input">
+                        </div>
+
+                        <div class="prueb">
+                            <label for="Phone-No-Input" class="phone-no-Input">Phone No</label>
+                            <input type="text" id="Phone-No-Input">
+                        </div>
+
+                        <div class="prueb">
+                            <label for="Your-message-input" class="your-message-input">Your message</label>
+                            <textarea name="" id="Your-message-input"></textarea>
+                            <input type="submit">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="contact-container__bottom">
+                    <div class="phone-nom">
+                        <div>
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                        <span>Phone No :</span>
+                        <span>(+54) 911 2460-3822</span>
+                    </div>
+                    <div class="e-mail-contact">
+                        <div>
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <span>E-Mail :</span>
+                        <span>Lautaro.bombace@gmail.com</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#2f2f2f" fill-opacity="1"
+                d="M0,128L30,154.7C60,181,120,235,180,250.7C240,267,300,245,360,213.3C420,181,480,139,540,117.3C600,96,660,96,720,112C780,128,840,160,900,149.3C960,139,1020,85,1080,74.7C1140,64,1200,96,1260,122.7C1320,149,1380,171,1410,181.3L1440,192L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+            </path>
+        </svg>
     </main>
 </body>
+<footer>
+    © 2024 DigitalForge, Inc. <img src="./Source/Logosvg.png" alt="Logo Digital Forge">
+</footer>
 
 </html>
