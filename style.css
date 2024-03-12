@@ -41,10 +41,11 @@ a {
 /* header, .main-heroe{
     background-color: #2f2f2f;
 } */
-.upTop-button{
+.upTop-button {
     position: sticky;
     top: 0;
 }
+
 /*---------------------------------------------------------------------- Header -------------------------------------------------------------------------------------------------*/
 
 
@@ -107,6 +108,7 @@ a {
 .heroe .heroe-top .fs {
     color: white;
     font-size: 30px;
+    text-align: left;
 }
 
 .heroe-top>div>p {
@@ -371,11 +373,17 @@ span {
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    margin-top: -8px;
+
+    background-color: #2F2F2F;
 }
 
 .resume {
     background-color: #2F2F2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -7px;
 }
 
 .resume .resume-container {
@@ -386,10 +394,14 @@ span {
     justify-content: center;
     padding: 80px;
     gap: 40px;
+    background-color: #222222;
+    border-radius: 28px;
+    width: 1000px;
 }
 
 .resume .resume-container img {
     width: 500px;
+    border-radius: 28px;
 }
 
 .resume-p__container {
@@ -399,6 +411,7 @@ span {
 .resume-p__container p {
     font-size: 30px;
     color: white;
+    text-align: center;
 
 }
 
@@ -410,8 +423,15 @@ span {
     align-items: center;
 }
 
-#contact {
+#contact-st {
+    text-align: center;
     color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: -8px;
 }
 
 .contact .contact-container {
@@ -435,12 +455,13 @@ span {
 }
 
 .contact .contact-container .contact-container__top>form label {
-    border: none
+    border: none;
 }
 
 .contact .contact-container .contact-container__top>form input {
     outline: none;
     border-radius: 6px;
+    padding: 5px 10px;
 }
 
 .contact .contact-container .contact-container__top>form textarea {
@@ -513,14 +534,24 @@ span {
     position: absolute;
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    align-items: center !important;
+    right: 0;
 }
+
+.submit-data {
+    width: 300px;
+    height: 40px;
+    background-image: linear-gradient(to right, #7E74F1, rgba(0, 191, 255, 1));
+    border: none;
+    color: white;
+}
+
 
 /*---------------------------------------------------------------------- Footer -------------------------------------------------------------------------------------------------*/
 footer {
     display: flex;
-    color: white;justify-content: center;
+    color: white;
+    justify-content: center;
     align-items: center;
     gap: 50px;
     background-color: #2F2F2F;
