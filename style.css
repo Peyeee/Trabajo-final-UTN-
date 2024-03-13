@@ -15,11 +15,13 @@
 html {
     width: 100%;
     height: 100%;
+    transition: ease-in-out 1s;
 }
 
 html {
     scroll-behavior: smooth;
     /* Aplica el desplazamiento suave a toda la página */
+    transition: 5s;
 }
 
 * {
@@ -294,7 +296,6 @@ a {
     justify-content: center;
     flex-direction: column;
     background-color: #2F2F2F;
-
     padding: 30px;
     border-radius: 30px;
 }
@@ -314,6 +315,7 @@ span {
     height: 500px;
     animation: animationsd 10s infinite;
 }
+
 
 .proyects-container .joga p {
     padding: 15px 20px;
@@ -355,11 +357,18 @@ span {
 
 
 .proyects h3 {
-    color: white;
+    /* color: white;
     display: flex;
     align-items: center;
     height: 50px;
     justify-content: center;
+    font-size: 24px; */
+    text-align: center;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 24px;
 }
 
@@ -493,10 +502,6 @@ span {
     resize: none;
     font-size: 16px;
     border: 1px solid #ccc;
-
-
-
-
 }
 
 
@@ -521,12 +526,65 @@ span {
     flex-direction: column;
 }
 
-.contact .contact-container .contact-container__bottom .phone-nom,
-.e-mail-contact {
+.contact .contact-container .contact-container__bottom .e-mail-contact {
     width: 300px;
     padding: 8px;
-    box-shadow: 1px 1px 18px rgba(0, 191, 255, 1);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     /* border: solid red 3px; */
+}
+
+.contact .contact-container .contact-container__bottom .e-mail-contact i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(126, 116, 241, 1);
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.contact .contact-container .contact-container__bottom .e-mail-contact .e-mail-contact__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 200px;
+}
+
+.contact .contact-container .contact-container__bottom .phone-nom {
+    width: 300px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    /* border: solid red 3px; */
+}
+
+.contact .contact-container .contact-container__bottom .phone-nom .bi-telephone-fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(126, 116, 241, 1);
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.contact .contact-container .contact-container__bottom .phone-nom .phone-nom-data__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 200px;
 }
 
 .contact .contact-container .contact-container__bottom {
@@ -568,9 +626,8 @@ span {
     width: 300px;
     height: 40px;
     background-image: linear-gradient(to right, #7E74F1, rgba(0, 191, 255, 1));
-    border: none;
+    border: none !important;
     color: white;
-
 }
 
 .digital-forge {
@@ -642,13 +699,264 @@ footer {
     gap: 50px;
     background-color: #2F2F2F;
     margin-top: -7px;
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 footer img {
     width: 50px;
 
 }
+
+/*---------------------------------------------------------------------- Media Query  -------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes animationsd {
     0% {
