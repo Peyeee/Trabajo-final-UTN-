@@ -133,7 +133,7 @@ a {
 
 .main-heroe img {
     width: 300px;
-    animation: animationsd 10s infinite;
+    animation: glow-box 10s infinite;
 }
 
 .heroe-top .fsNDC {
@@ -230,7 +230,7 @@ a {
     gap: 15px;
     background-color: #222222;
     border-radius: 19px;
-    animation: animationsd 10s infinite;
+    animation: glow-box 10s infinite;
 }
 
 .services-container article p {
@@ -313,7 +313,7 @@ span {
     align-items: center;
     width: 830px;
     height: 500px;
-    animation: animationsd 10s infinite;
+    animation: glow-box 10s infinite;
 }
 
 
@@ -337,7 +337,7 @@ span {
     align-items: center;
     height: 500px;
     width: 830px;
-    animation: animationsd 10s infinite;
+    animation: glow-box 10s infinite;
 }
 
 .proyects-container .hostinger p {
@@ -416,7 +416,7 @@ span {
     background-color: #222222;
     border-radius: 28px;
     width: 1000px;
-    animation: animationsd 10s infinite;
+    animation: glow-box 10s infinite;
     z-index: 999;
 }
 
@@ -469,7 +469,7 @@ span {
     height: 500px;
     border-radius: 40px;
     padding: 30px;
-    animation: animationsd 10s infinite;
+    animation: glow-box 10s infinite;
     position: relative;
 }
 
@@ -479,8 +479,7 @@ span {
     align-items: center;
     flex-direction: column;
     gap: 18px;
-    width: 500px;
-    height: 500px;
+
 }
 
 .contact .contact-container .contact-container__top>form label {
@@ -710,14 +709,319 @@ footer img {
 /*---------------------------------------------------------------------- Media Query  -------------------------------------------------------------------------------------------------*/
 
 
+@media(max-width:1401px) {
+
+    /*---------------------------------------------------------------------- Body(Services) -------------------------------------------------------------------------------------------------*/
+    .services-container {
+        display: flex;
+        justify-content: center;
+        background-color: #2F2F2F;
+        padding: 30px;
+        gap: 80px;
+        align-items: center;
+        flex-direction: column;
+        /* box-shadow: 0px 15px 10px rgba(126, 116, 241, 0.5) ; */
+    }
+
+    .services-container article {
+        width: 100%;
+    }
+
+    /*---------------------------------------------------------------------- Body(Proyects) -------------------------------------------------------------------------------------------------*/
+
+    .proyects-container {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 50px;
+        gap: 50px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /*---------------------------------------------------------------------- Body(Resume) -------------------------------------------------------------------------------------------------*/
+    /*---------------------------------------------------------------------- Body(Contact) -------------------------------------------------------------------------------------------------*/
+    .contact .contact-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #2F2F2F;
+        width: 1000px;
+        height: 500px;
+        border-radius: 40px;
+        padding: 30px;
+        animation: glow-box 10s infinite;
+        position: relative;
+    }
+
+
+
+    /*---------------------------------------------------------------------- Footer -------------------------------------------------------------------------------------------------*/
+
+}
+
+@media(max-width:1031px) {
+
+    /*---------------------------------------------------------------------- Body(Services) -------------------------------------------------------------------------------------------------*/
+    .services-container {
+        display: flex;
+        justify-content: center;
+        background-color: #2F2F2F;
+        padding: 30px;
+        gap: 80px;
+        align-items: center;
+        flex-direction: column;
+        /* box-shadow: 0px 15px 10px rgba(126, 116, 241, 0.5) ; */
+    }
+
+    .services-container article {
+        width: 100%;
+    }
+
+    /*---------------------------------------------------------------------- Body(Proyects) -------------------------------------------------------------------------------------------------*/
+
+    .proyects-container {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 50px;
+        gap: 50px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .proyects-container .joga {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 50px;
+        gap: 50px;
+        flex-direction: column;
+        width: 600px;
+    }
+
+    .proyects-container .joga img {
+        width: 450px;
+    }
+
+    .proyects-container .hostinger {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 50px;
+        gap: 50px;
+        flex-direction: column;
+        width: 600px;
+    }
+
+    .proyects-container .hostinger img {
+        width: 450px;
+    }
+
+    /*---------------------------------------------------------------------- Body(Resume) -------------------------------------------------------------------------------------------------*/
+    .resume .resume-h3 {
+        text-align: center;
+        color: white;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        background-color: #2F2F2F;
+    }
+
+    .svg-resume {
+        margin-bottom: -30px;
+    }
+
+    .resume {
+        background-color: #2F2F2F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .resume .resume-container {
+        display: flex;
+        align-items: flex-start;
+        height: 600px;
+        justify-content: center;
+        padding: 40px;
+        gap: 40px;
+        background-color: #222222;
+        border-radius: 28px;
+        width: 600px;
+        animation: glow-box 10s infinite;
+        z-index: 999;
+    }
+
+    .resume .resume-container img {
+        width: 300px;
+        height: 500px;
+        border-radius: 28px;
+    }
+
+    .resume-p__container p {
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1px;
+    }
+
+
+    .resume-p__container p {
+        font-size: 15px;
+        color: white;
+
+    }
+
+    /*---------------------------------------------------------------------- Body(Contact) -------------------------------------------------------------------------------------------------*/
+    .contact .contact-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #2F2F2F;
+        width: 600px;
+        height: 500px;
+        border-radius: 40px;
+        padding: 30px;
+        animation: glow-box 10s infinite;
+        position: relative;
+    }
+
+    .contact .contact-container .contact-container__top>form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 18px;
+
+    }
+
+    .contact .contact-container .contact-container__top>form label {
+        border: none;
+    }
+
+    .contact .contact-container .contact-container__top>form input {
+        outline: none;
+        border-radius: 6px;
+        padding: 5px 10px;
+    }
+
+    .contact .contact-container .contact-container__top>form textarea {
+        border-radius: 6px;
+        padding: 5px 10px;
+        outline: none;
+        width: 300px;
+        height: 70px;
+        resize: none;
+        font-size: 16px;
+        border: 1px solid #ccc;
+    }
+
+
+    .contact .contact-container .contact-container__bottom>div>div i {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 16px;
+    }
+
+    .contact .contact-container .contact-container__bottom>div>div {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 16px;
+    }
+
+    .contact .contact-container .contact-container__bottom div {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-direction: column;
+    }
+
+    .contact .contact-container .contact-container__bottom .e-mail-contact {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* border: solid red 3px; */
+    }
+
+    .contact .contact-container .contact-container__bottom .e-mail-contact i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(126, 116, 241, 1);
+        width: 30px;
+        height: 30px;
+        border-radius: 8px;
+    }
 
+    .contact .contact-container .contact-container__bottom .e-mail-contact .e-mail-contact__container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 200px;
+    }
 
+    .contact .contact-container .contact-container__bottom .phone-nom {
+        width: 300px;
+        padding: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+        /* border: solid red 3px; */
+    }
 
+    .contact .contact-container .contact-container__bottom .phone-nom .bi-telephone-fill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(126, 116, 241, 1);
+        width: 60px;
+        height: 60px;
+        border-radius: 8px;
+    }
 
+    .contact .contact-container .contact-container__bottom .phone-nom .phone-nom-data__container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 200px;
+    }
 
+    .contact .contact-container .contact-container__bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        flex-direction: column;
+    }
 
 
+    .bi {
+        color: white;
+    }
 
+    .input-label_container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        flex-direction: column;
+    }
+}
 
 
 
@@ -958,7 +1262,12 @@ footer img {
 
 
 
-@keyframes animationsd {
+
+
+
+
+
+@keyframes glow-box {
     0% {
         box-shadow: 0 0 15px #7E74F1;
     }
