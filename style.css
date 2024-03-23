@@ -1086,8 +1086,8 @@ footer img {
 }
 
 @media (max-width:415px) {
-    .joga {
-        height: 650px !important;
+    .proyects .proyects-container .joga {
+        height: 650px;
     }
 }
 
